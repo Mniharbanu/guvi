@@ -1,8 +1,8 @@
-n=list(input())
-if len(n)%2==0:
-    n[int(len(n)/2)] ='*'
-    n[int(len(n)/2)-1]='*'
+num=list(input())
+if len(num)%2==0:
+    num[int(len(num)/2)] ='*'
+    num[int(len(num)/2)-1]='*'
 else:
-    n[int(len(n)/2)] ='*'
-for i in range(0,len(n)):
-    print(n[i],end='')
+    num[int(len(num)/2)] ='*'
+for x in range(0,len(num)):
+    print(num[x],end='')
