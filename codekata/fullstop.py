@@ -1,0 +1,2 @@
+SS=input()
+print(SS+'.')
